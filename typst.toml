@@ -1,0 +1,6 @@
+[package]
+name = "bupt-upt"
+version = "0.1.6"
+entrypoint = "lib.typ"
+authors = ["fa_555 <fa_555@foxmail.com>"]
+description = "BUPT Undergraduate Project Thesis."
