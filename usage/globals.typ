@@ -1,4 +1,4 @@
-#import "@local/BUPT:0.1.0": *
+#import "@local/BUPT:0.2.0": *
 
 #let (
   set-universal,
@@ -13,12 +13,14 @@
   text-cite,
 ) = final-factory(
   info: config-info(
+    // is-material: true, // 为 true 时使用另一套模板，用于过程性材料中的外文论文翻译
+    // is-anonymous: true, // 为 true 时抹去敏感信息与 #redact 函数包裹的内容
     author: (
       name: "法伍",
       school: "计算机学院（国家示范性软件学院）",
       major: "计算机科学与技术",
-      class-id: "2021211300",
-      student-id: "2021210000",
+      class-id: "2021211355",
+      student-id: "2021215555",
       supervisor: "法伵",
     ),
     thesis: (
